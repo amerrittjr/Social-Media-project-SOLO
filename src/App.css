@@ -1,0 +1,26 @@
+.homepage-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.upload-form,
+.video-list {
+  width: 45%;
+}
+
+.upload-form form div {
+  margin-bottom: 10px;
+}
+
+.video-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.video-list li {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
